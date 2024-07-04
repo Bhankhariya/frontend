@@ -31,7 +31,7 @@ export const Register = () => {
     e.preventDefault();
     console.log(user);
     try {
-      const response = await fetch(`https://backend-coral-phi.vercel.app/api/auth/register`, {
+      const response = await fetch(`https://backgame.vercel.app/`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
